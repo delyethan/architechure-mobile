@@ -1,0 +1,112 @@
+/* Portrait phone 5 */
+@media (min-width:321px) and (max-width:375px) {
+
+  /*statistic*/
+  #footer .statisic .box-img {
+    width: 160px;
+    padding-left: 10px;
+  }
+
+  /*footer contact*/
+  #footer .contact ul li span:last-child {
+    width: 81%;
+  }
+}
+
+@media (max-width:320px) {
+  #content .menu .item p {
+    padding: 0 125px;
+  }
+  #content .vision .text h1{
+        padding: 0 75px;
+
+  }
+  #content .about .box-img2{
+    height: 200px;
+  }
+
+  #content .team .member .item{
+    margin-top:10px;
+  }
+
+  /*statistic*/
+  #footer .statistic h2 {
+    color: white;
+    padding: 0 70px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  #footer .statisic .box-img img {
+    height: 30px;
+  }
+
+  #footer .statisic .box-img {
+    width: 133px;
+    padding-left: 10px;
+  }
+
+  /*footer contact*/
+  #footer .contact ul li span:last-child {
+    width: 78%;
+  }
+
+  #footer .partner .partner-member img {
+    width: auto !important;
+    height: 50px;
+
+    padding: 0px 5px;
+  }
+
+}
+
+#faq .question {
+  font-size: 12px;
+  width: 90%;
+}
+
+#faq .answer p {
+  font-size: 12px;
+}
+
+/* home overview */
+#content .overview h1 {
+  padding: 0 60px;
+
+}
+
+@media (min-width:360px) and (max-width:412px) {
+  #content .overview h1 {
+
+    padding: 0 80px;
+
+  }
+
+  #content .menu .item p {
+    padding: 0 135px;
+  }
+
+  #content .vision .text h1 {
+    padding: 0 95px;
+  }
+
+  #footer .partner .partner-member img {
+    width: 80px !important;
+    height: 60px;
+    padding-top: 5px;
+  }
+
+  #content .team .member .item {
+    margin-top: 10px;
+  }
+
+  #faq .question {
+    font-size: 12px;
+    width: 95%;
+  }
+
+  #faq .answer p {
+    font-size: 12px;
+  }
+}
