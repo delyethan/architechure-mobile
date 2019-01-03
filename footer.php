@@ -2,47 +2,8 @@
   <!-- footer -->
   <div id="footer">
     <div class="container-footer">
-      <div class="statistic">
-        <!-- statisic -->
-        <h2>Insurance Built
-          Around Your Needs
-          And Requirements</h2>
-        <div class="number">
-          <div class="item">
-            <div class="box-img">
-              <img src="assets/img/Elite-Insurance-Brokers-Cambodia-Fact-01.svg" alt="">
-              <h1>168K</h1>
-            </div>
-
-            <p>Happy Client On Case Solved</p>
-          </div>
-
-          <div class="item">
-
-            <div class="box-img">
-              <img src="assets/img/Elite-Insurance-Brokers-Cambodia-Fact-02.svg" alt="">
-              <h1>68K</h1>
-            </div>
-            <p>Secure Account With Guarantee</p>
-          </div>
-          <div class="item">
-            <div class="box-img">
-              <img src="assets/img/Elite-Insurance-Brokers-Cambodia-Fact-03.svg" alt="">
-              <h1>2008</h1>
-            </div>
-            <p>10 Year Of Extra Experience</p>
-          </div>
-          <div class="item">
-            <div class="box-img">
-              <img src="assets/img/Elite-Insurance-Brokers-Cambodia-Fact-04.svg" alt="">
-              <h1>18</h1>
-            </div>
-            <p>Dedicated Team With Strong Skill</p>
-          </div>
-        </div>
-      </div><!-- end-statisic -->
       <div class="partner">
-        <h2>OUR PARTNERS & CLIENTS</h2>
+        <p class="menutitle">OUR PARTNERS & CLIENTS</p>
         <div class="partner-member">
           <div><img src="assets/img/Architecture-Partner-01.jpg" alt=""></div>
           <div><img src="assets/img/Architecture-Partner-01.jpg" alt=""></div>
@@ -66,14 +27,15 @@
         </div>
       </div>
       <div class="overview">
-
+        <p class="menutitle">contact us</p>
+        <h2 class="title">Feel free to contact us</h2>
         <div class="contact">
           <div class="address">
             <div class="logo">
               <img src="assets/img/icon/Architecture-option22-location.svg" alt="">
             </div>
-            <p># 2188, St. 156, Toeuk Laork II,
-              Toul Kork, Phnom Penh, Cambodia.</p>
+            <p># 2188, St. 156, Toeuk Laork II,</p>
+            <p>Toul Kork, Phnom Penh, Cambodia.</p>
           </div>
           <div class="phone">
             <div class="logo">
@@ -86,20 +48,25 @@
             <div class="logo">
               <img src="assets/img/icon/Architecture-option22-Email.svg" alt="">
             </div>
-            <a href="mailto:info@archsite.com">
-              <p>info@archsite.com</p>
-            </a>
-            <a href="https://www.facebook.com/archsite">
-              <p>www.facebook.com/archsite</p>
-            </a>
+            <p><a href="mailto:info@archsite.com">
+                info@archsite.com
+              </a></p>
+            <p><a href="https://www.facebook.com/archsite">
+                www.facebook.com/archsite
+              </a></p>
           </div>
 
         </div>
       </div>
+      <div class="mediafooter">
+        <ul class="ul-media">
+          <li><a href="#" title=""><img src="assets/img/icon/facebook.svg" alt=""></a></li>
+          <li><a href="#" title=""><img src="assets/img/icon/youtube.svg" alt=""></a></li>
+        </ul>
+      </div>
       <div class="footer-bottom">
-        <p>© 2018. All rights reserved</p>
-        <p>Elite Insurance Brokers PLC. - <a href="">Site Map</a></p>
-        <p>Developed by: <a href="http://tomnerbtech.com">TomnerbTECH</a></p>
+        <p>© 2018. All rights reserved. ARCHSITE, Sitemap</p>
+        <p>Developed by: TomnerbTECH</p>
       </div>
     </div>
   </div>
