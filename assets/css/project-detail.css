@@ -1,0 +1,36 @@
+.poster {
+    width: 200px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.poster p {
+    text-align: center;
+}
+
+.poster font {
+    color: red;
+}
+
+.project-detail .facebooklike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.project-detail .facebooklike iframe {
+    height: 30px;
+}
+
+.detail .subtitle {
+    padding-bottom: 20px;
+}
+
+.detail .imgbox {
+    padding-bottom: 20px;
+}
+
+.detail div:last-child {
+    padding-bottom: 50px;
+}

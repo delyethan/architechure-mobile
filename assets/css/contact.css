@@ -1,0 +1,74 @@
+#contact form {
+    margin: 0 30px;
+}
+
+#contact {
+    background-color: white;
+}
+
+#contact a {
+    text-decoration: none;
+}
+
+#contact .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact .title img {
+    width: 18px;
+    height: 24px;
+}
+
+#contact .title h3 {
+    color: red;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+input:focus {
+    outline-color: red;
+}
+
+textarea:focus {
+    outline-color: red;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact form input {
+    height: 40px;
+    margin-top: 30px;
+    padding-left: 15px;
+    border: solid 1px #e0e0e0;
+}
+
+#contact form textarea {
+    height: 275px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-left: 15px;
+    border: solid 1px #e0e0e0;
+}
+
+#contact .box-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#contact .button {
+    padding: 50px 0;
+}
+
+#contact .button a .btn-arcsite {
+    margin: 0 auto;
+}
+#contact .map{
+    padding-bottom: 50px;
+}

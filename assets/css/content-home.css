@@ -1,152 +1,165 @@
-/****************************************************************************
-////////////////////////////////////////////////////////////////////////////////
-* 	Blog Content
-////////////////////////////////////////////////////////////////////////////////
-*****************************************************************************/
-
-/*herro banner*/
-#content .container-content,#footer .container-footer{background-color: white;height: auto;width: 100%;}
-#content .sub-banner{overflow: hidden;}
-#content .sub-banner img{height: 100%;width: 100%;object-fit: cover;}
-#content .sub-banner .carousel-caption h1{font-size: 25px;color: white;text-transform: uppercase;}
-.carousel-indicators{z-index: 1;}
-.carousel-indicators li{background-color: white;border: solid 1px  #074E84}
-.carousel-indicators li.active{background-color: #074E84;}
-/*end herro banner*/
-
-
-/* overview */
-#content .overview{
-    background-color: #EFEFEF;
-    padding-bottom: 50px;
+#lastestproject .projectbox {
+    padding-top: 30px;
 }
 
-#content .overview h1{
-    text-align: center;
-    padding: 0 120px;
-    color: #CD0637;
-    margin-top:50px;
+#lastestproject .imgdetail,
+#ourteam .imgdetail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-#content .overview p{
-    text-align: center;
-    margin-top: 30px;
-    padding: 0 30px;
-    line-height: 25px;
+#lastestproject .imgdetail h2,
+#ourteam .imgdetail h2 {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    transition: all 0.7s;
 }
 
-#content .overview .item{
+#lastestproject .imgdetail p,
+#ourteam .imgdetail p {
+    font-size: 14px;
+    line-height: 100%;
+}
+
+#lastestproject .imgbox .bar1 {
+    right: -50px;
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    width: 40px;
+    background-color: red;
+    transition: all 0.7s;
+}
+
+#lastestproject .bg-cover {
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.7s;
+}
+
+#lastestproject .cross {
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+}
+
+#lastestproject .cross .bar2 {
+    right: 46%;
+    position: absolute;
+    top: -50px;
+    height: 1px;
+    transform: rotate(90deg);
+    width: 40px;
+    background-color: red;
+    transition: all 0.7s;
+}
+
+#lastestproject .projectbox:hover .bg-cover {
+    opacity: 1;
+}
+
+#lastestproject .projectbox:hover .bar1 {
+    right: 46%;
+}
+
+#lastestproject .projectbox:hover .bar2 {
+    top: 50%;
+}
+
+#lastestproject .projectbox:hover .imgdetail h2 {
+    color: red;
+}
+
+#lastestproject .projectbox:hover .imgbox img {
+    transform: scale(1.1);
+}
+
+#ourservice {
     margin-top: 50px;
-display: flex;
-justify-content: center;
-align-items: center;
+    position: relative;
 }
 
-#content .overview .item img{
-    flex: 1;
+#ourservice img {
+    width: 100%;
+    height: 100%;
+}
+
+#ourservice .service {
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#ourservice .service p {
+    color: #FFF;
+    opacity: 0.8;
+}
+
+#ourservice .service h2 {
+    color: #FFF;
+    width: 315px;
+}
+
+#ourservice .service p:not(.menutitle):first-child {
+    padding-top: 0;
+}
+
+#ourservice .service p:not(.menutitle) {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 35px;
+}
+#ourservice .container{
+    height: 674px;
+    width: 100%;
+}
+
+#statistic {
+    padding: 25px 0;
+}
+
+#statistic .flexgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#statistic .flexgrid .flexbox {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+#statistic .flexgrid .flexbox .statisticimg {
     width: 60px;
     height: 60px;
 }
 
-#content .overview .item .text{
-    flex: 2;
-}
-#content .overview .item .text h2{
-    font-size: 16px;
-    color: #CD0637;
-}
-#content .overview .item .text p{
-    margin-top: 5px;
-    text-align: left;
-   padding: 0;
-   margin-right: 30px;
-}
-
-/* end of overview */
-
-/* menu */
-#content .menu {
-    background-color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-#content .menu .item {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px 10px;
-    flex-direction: column;
-}
-
-#content .menu .item img{
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-
-#content .menu a .item .umbrella{
-        background-image: url('../img/umbrella.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        z-index: 1;
-    }
-
-    #content .menu a:nth-child(even) .item .umbrella{
-        transform:scaleX(-1);
-    }
-
-    #content .menu .item p{
-        position:absolute;
-        bottom:30px;
-        color: white;
-        z-index: 2;
-        padding: 0 150px;
-        text-align: center;
-        font-size: 14px;
-    }
-
-
-#content .menu .mini-item{
-    margin: 10px 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  
-}
-#content .menu .mini-item a{
-    flex:1;
-}
-
-#content .menu .mini-item .box{
-    display: flex;
-   position: relative;
-    justify-content: center;
-    align-items: center;
-    height: 134px;
-}
-
-#content .menu .mini-item a:first-child .box {
-    margin-right: 5px;
-}
-#content .menu .mini-item a:last-child .box {
-    margin-left: 5px;
-}
-#content .menu .mini-item img{
+#statistic .flexgrid .flexbox .statisticimg img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
 }
-#content .menu .mini-item p{
-    position: absolute;
-    color:white;
+
+#statistic .flexgrid .flexbox .number {
+    padding: 20px 0;
+    font-size: 18px;
+    font-weight: bold;
 }
-/* end of menu */
 
-
-
+#statistic .flexgrid .flexbox .text {
+    font-size: 14px;
+}

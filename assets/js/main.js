@@ -117,7 +117,7 @@ $(document).ready(function () {
     });
   };
   $('#hamburger-menu').clickMenuHumberger({
-    obj: ['.container-cus', '.container-content', '.container-footer'],
+    obj: ['.container-cus', '.container-content', '#content', '.container-footer'],
     objHide: ['#header nav.menu-side-bar'],
     width: 90,
     duration: 300,
