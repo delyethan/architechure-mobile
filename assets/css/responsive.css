@@ -1,12 +1,63 @@
 /* Portrait phone 5 */
-@media (min-width:321px) and (max-width:375px) {
 
+@media (min-width:320px) and (max-width:359px) {
+    p{
+        font-size: 12px;
+    }
+    #header .logo{
+        height: 20px;
+    }
+    #header nav .sidebar-logo{
+        height: 45px;
+    }
+    #header nav.menu-side-bar li a{
+        font-size: 14px;
+    }
+    .menutitle{
+        font-size: 12px;
+    }
+    .title{
+        font-size: 20px;
+        width: 290px;
+    }
+    .subtitle{
+        font-size: 14px;
+        width: 300px;
+    }
+    #lastestproject .imgdetail h2, #ourteam .imgdetail h2{
+        font-size: 16px;
+    }
+    #lastestproject .imgdetail p, #ourteam .imgdetail p{
+        font-size: 12px;
+    }
+    #ourservice .service p:not(.menutitle){
+        font-size: 16px;
+    }
+    #footer .partner .partner-member img {
+        width: 66px !important;
+        height: 49px;
+    }
+    #statistic .flexgrid .flexbox .statisticimg{
+        width: 50px;
+        height: 50px;
+    }
+    #statistic .flexgrid .flexbox .number{
+        font-size: 16px;
+        padding: 10px 0;
+    }
+    #statistic .flexgrid .flexbox .text{
+        font-size: 12px;
+    }
 }
 
-@media (max-width:320px) {
+@media (max-width:320px) {}
 
-}
-
-@media (min-width:360px) and (max-width:412px) {
- 
+@media (min-width:360px) and (max-width:410px) {
+    #header nav .sidebar-logo{
+        height: 50px;
+    }
+    #footer .partner .partner-member img {
+        width: 75px !important;
+        height: 54px;
+    }
 }
