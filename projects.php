@@ -5,7 +5,7 @@
     <div id="lastestproject">
         <p class="menutitle">last projects</p>
         <div class="projectbox">
-            <a href="">
+            <a href="project-detail.php">
                 <div class="imgbox">
                     <div class="bg-cover">
                         <div class="cross">
@@ -22,7 +22,7 @@
             </div>
         </div>
         <div class="projectbox">
-            <a href="">
+            <a href="project-detail.php">
                 <div class="imgbox">
                     <div class="bg-cover">
                         <div class="cross">
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="projectbox">
-            <a href="">
+            <a href="project-detail.php">
                 <div class="imgbox">
                     <div class="bg-cover">
                         <div class="cross">
@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="projectbox">
-            <a href="">
+            <a href="project-detail.php">
                 <div class="imgbox">
                     <div class="bg-cover">
                         <div class="cross">
@@ -73,7 +73,7 @@
             </div>
         </div>
         <div class="projectbox">
-            <a href="">
+            <a href="project-detail.php">
                 <div class="imgbox">
                     <div class="bg-cover">
                         <div class="cross">
@@ -90,7 +90,7 @@
             </div>
         </div>
         <div class="projectbox">
-            <a href="">
+            <a href="project-detail.php">
                 <div class="imgbox">
                     <div class="bg-cover">
                         <div class="cross">
@@ -107,7 +107,7 @@
             </div>
         </div>
         <div class="projectbox">
-            <a href="">
+            <a href="project-detail.php">
                 <div class="imgbox">
                     <div class="bg-cover">
                         <div class="cross">
@@ -124,7 +124,7 @@
             </div>
         </div>
         <div class="projectbox">
-            <a href="">
+            <a href="project-detail.php">
                 <div class="imgbox">
                     <div class="bg-cover">
                         <div class="cross">
@@ -141,7 +141,7 @@
             </div>
         </div>
         <div class="projectbox">
-            <a href="">
+            <a href="project-detail.php">
                 <div class="imgbox">
                     <div class="bg-cover">
                         <div class="cross">
