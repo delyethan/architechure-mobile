@@ -136,7 +136,6 @@ p{
 .line .red {
     color: red;
 }
-
 a {
     color: black;
 }
@@ -416,7 +415,6 @@ a:focus {
 #footer .overview .title {
     padding-bottom: 0;
 }
-
 #footer .contact {
     display: flex;
     justify-content: center;
