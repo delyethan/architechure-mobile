@@ -124,7 +124,7 @@
             <p>Interior Design</p>
             <p>Property Management</p>
         </div>
-        <div data-jarallax class="jarallax​ container">
+        <div data-jarallax class="jarallax​ container" data-fullscreen>
                 <div class="bg-cover"></div>
                 <img class="jarallax-img" src="assets/img/Archsite-mobile-homepage-services-01.jpg" alt="">
             </div>

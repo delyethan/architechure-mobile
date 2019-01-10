@@ -159,7 +159,7 @@ $(document).ready(function () {
   $('.partner-member').slick({
     slidesToShow: 4,
     slidesToScroll: 4,
-    rows: 3,
+    rows: 4,
     infinite: true,
     arrows: false,
     dots: true,
