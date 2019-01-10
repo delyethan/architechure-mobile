@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="assets/vender/slick-slider/slick.css">
   <link rel="stylesheet" type="text/css" href="assets/vender/myPluginStyle.css">
   <script type="text/javascript" src="assets/js/jquery.js"></script>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="<?php echo $PATH ?>assets/vender/jarallax.css">
  
 </head>
@@ -62,8 +62,7 @@
 
    
   </div><!-- end-header -->
-  <div class="container-content">
-
+  <div class="container-cus">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

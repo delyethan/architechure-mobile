@@ -3,20 +3,23 @@
 * 	Blog Default
 ////////////////////////////////////////////////////////////////////////////////
 *****************************************************************************/
-
+html {
+    scroll-behavior: smooth;
+  }
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     font-size: 14px !important;
-    font-family: 'Roboto', sans-serif;
     color: black !important;
     background: #FFFFFF;
     overflow-x: hidden;
 }
-main{
+
+main {
     background-color: white;
 }
 
@@ -45,6 +48,7 @@ main{
     margin: 0 auto;
     width: 340px;
 }
+
 .btn-arcsite {
     cursor: pointer;
     height: 40px;
@@ -59,9 +63,9 @@ main{
     text-transform: uppercase;
     transition: 0.5s;
     text-transform: capitalize;
-  }
-  
-  .btn-arcsite:hover {
+}
+
+.btn-arcsite:hover {
     cursor: pointer;
     height: 40px;
     width: 168px;
@@ -69,11 +73,14 @@ main{
     color: white;
     border: 1px solid red;
     background-color: red;
-  }
-  .btn-arcsite:focus{
-    outline:5px auto red;
-  }
+}
+
+.btn-arcsite:focus {
+    outline: 5px auto red;
+}
+
 /* projectbox */
+
 .imgbox {
     position: relative;
     margin: 0 10px;
@@ -84,7 +91,8 @@ main{
     width: 100%;
     transition: 0.7s;
 }
-p{
+
+p {
     line-height: 25px;
 }
 
@@ -100,8 +108,12 @@ p{
 ////////////////////////////////////////////////////////////////////////////////
 *****************************************************************************/
 
+.carousel {
+    margin-top: 45px;
+}
+
 .carousel-inner img {
-    height: 100vh !important;
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }
@@ -125,8 +137,8 @@ p{
 
 .line {
     display: flex;
-    width: 200px;
     margin: 0 auto;
+    padding: 20px 0;
 }
 
 .carousel-caption h1 {
@@ -136,6 +148,7 @@ p{
 .line .red {
     color: red;
 }
+
 a {
     color: black;
 }
@@ -386,16 +399,22 @@ a:focus {
 /* partner */
 
 #footer .partner {
-    background-color: #EFEFEF;
+    background-image: url("../img/Architecture-Partner-Background.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 50px 10px;
 }
-#footer .partner .menutitle{
+
+#footer .partner .menutitle {
     padding-top: 0;
 }
+
 #footer .partner .partner-member img {
     width: 87px !important;
     height: 65px;
@@ -417,6 +436,7 @@ a:focus {
 #footer .overview .title {
     padding-bottom: 0;
 }
+
 #footer .contact {
     display: flex;
     justify-content: center;

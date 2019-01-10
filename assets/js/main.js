@@ -129,6 +129,7 @@ $(document).ready(function () {
 
   function fullHeightScreen() {
     var amountHeaderH = '';
+
     var windowHight = $(window).height();
     var windowWidth = $(window).width();
     var dataHeaderH = $("[data-headerh]").outerHeight();
@@ -139,16 +140,18 @@ $(document).ready(function () {
     }
     $("[data-fullscreen]").each(function () {
       var imgWidth = $(this).find('img').width();
-      $("[data-fullscreen]").css({
-        'height': windowHight - amountHeaderH + 'px',
-        'width': '100%',
-        'overflow': 'hidden'
-      });
+      $("[data-fullscreen]").css({ 'height': windowHight - amountHeaderH + 'px', 'width': '100%', 'overflow': 'hidden' });
+      if (imgWidth > windowWidth) {
+        $(this).find('img').css({
+          'width': '100%'
+        });
+      } else {
+        $(this).find('img').css({
+          'height': '100%'
+        });
+      }
     });
   }
-  $(window).resize(function () {
-    fullHeightScreen();
-  });
   fullHeightScreen();
 
 
